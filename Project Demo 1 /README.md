@@ -20,7 +20,7 @@ This project demonstrates a streamlined two-stage data pipeline:
 
 ## 📂 Project Layout
 The project is organized into a clean data pipeline structure:
-* **`before/`** → Drop your raw, uncleaned spreadsheets here.
+* **`data/`** → Drop your raw, uncleaned spreadsheets here.
 * **`code/`** → Where the Python automation scripts live.
 * **`output/`** → Where your freshly cleaned data files and visual charts pop out automatically.
 
@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 # STAGE 1: Clean the raw data & save it
 # ==========================================
 # Ingest raw file (supports CSV, Excel, etc.)
-raw_data = pd.read_your_format("before/your_messy_file")
+raw_data = pd.read_your_format("data/your_messy_file")
 
 # Clean missing rows and strip out the junk
 cleaned_df = raw_data.dropna()
