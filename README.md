@@ -6,5 +6,5 @@ Personal Projects for Skills And Improvement
 Here are some automated workflows and data projects I've built to turn messy data into clean insights.
 
 ### Projects:
-* **[Proj Demo 1](./Project_Demo_1 ):** Automated spreadsheet cleaner and visualizer using Pandas and Matplotlib.
+* **[Proj Demo 1](./Project%20Demo%201):** Automated spreadsheet cleaner and visualizer using Pandas and Matplotlib.
 * **[Proj Demo 2](./Project-Demo-2):** *(Coming soon)*
